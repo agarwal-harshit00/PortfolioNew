@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/811769c55c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+         <a href="#" class="logo">Portfolio</a>
+
+         <i class="fa-solid fa-bars" onClick="iconc()" id="menu-icon"></i>
+
+         <nav class="navbar">
+            <a href="#home" class="active home" onClick="onNavItemClick('#home')" id="#home">Home</a>
+            <a href="#about" class="about" onClick="onNavItemClick('#about')" id="#about">About</a>
+            <a href="#services" class="services" onClick="onNavItemClick('#services')" id="#services">Services</a>
+            <a href="#portfolio" class="portfolio" onClick="onNavItemClick('#portfolio')" id="#portfolio">Portfolio</a>
+            <a href="#contact" class="contact" onClick="onNavItemClick('#contact')" id="#contact">Contact Me</a>
+         </nav>
+    </header>
+
+    <section class="home sec" id="home">
+       <div class="home-content">
+          <h3>Hi, Myself</h3>
+          <h1>Harshit Agarwal</h1>
+          <h3>And I'm a <span class="multiple-text"></span></h3>
+          <p>Currently I am a second year undergraduate at NIT Silchar</p>
+           <div class="social-media">
+            <a href="https://www.facebook.com/harshit.agarwal.905220"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/Harshitvirus"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/harshitaga_01/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/harshit-agarwal-a119a4332/"><i class="fa-brands fa-linkedin-in"></i></a>
+           </div>
+           <a href="https://github.com/agarwal-harshit00" target="_blank" class="btn">Github Link</a>
+       </div>
+       <div class="home-img">
+        <img src="assets\I.PNG" alt="myself">
+       </div>
+    </section>
+
+    <section class="about sec" id="about">
+        <div class="about-img">
+            <img src="assets\me.jpg" alt="me">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>Hi! Myself Harshit Agarwal. I am a second year undergraduate at National Institute Of Technology Silchar(NITS) in electrical engineering department. I have been tinkering with coding since my school days. I do have some infinty stones which include Java, C, JavaScript, HTML, CSS, TypeScript, ReactJs, NextJs, NodeJS. I am a self taught developer and an enthusiastic individual. I am curretnly learning to contibute to everyone's welfare by contibuting to open-source. I love working on interesting and challenging problems and have spent many of the nights up coding. </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services sec" id="services">
+         <h2 class="heading">My <span>Services</span></h2>
+         <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Developement</h3>
+                <p> Web development is the mastery of digital craftsmanship, sculpting virtual landscapes with code. It intertwines creativity and technical finesse, bringing ideas to life on the vast canvas of the internet, where innovation meets functionality seamlessly.</p>
+                <a href="https://www.geeksforgeeks.org/web-development/" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX</h3>
+                <p>User Interface (UI) design focuses on the visual elements directly engaged by users. UI designers are responsible for creating appealing interfaces that are easy to use emphasizing aesthetics and visual components such, as buttons, icons, and menus.User Experience (UX) design revolves around creating a comprehensive user journey within a product or service. It involves crafting experiences that deeply connect with users encompassing branding, usability, functionality, and design. UX designers prioritize understanding users' emotions. Ensuring a seamless interaction that leaves them satisfied.</p>
+                <a href="https://www.geeksforgeeks.org/difference-between-ui-and-ux-design/" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3> Developement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ad iste magnam. Fugit laborum itaque illo harum eaque unde labore, doloribus consequuntur doloremque deserunt veniam inventore commodi in, voluptate laudantium!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+         </div>
+    </section>
+
+    <section class="portfolio sec" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="assets\image5.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Figma Design Clone</h4>
+                    <p>First group project of cloning</p>
+                    <a href="https://figma-worskspace-clone.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets\image3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>My Portfolio</h4>
+                    <p>Portfolio website with great animations</p>
+                    <a href="https://agarwal-harshit00.github.io/Portfolio/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+               
+            </div>
+            <div class="portfolio-box">
+                <img src="assets\image4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tic Tac Toe Game</h4>
+                    <p>Interactive Tic Tac Toe game website with responsive design and dynamic gameplay.</p>
+                    <a href="https://tic-tac-toe-game-peach-rho.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="contact sec" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+         <form action="#" class="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="digits" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+         </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @harshit | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+  
+</body>
+</html>
